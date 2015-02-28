@@ -1,0 +1,34 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 20px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    font-weight: bold ;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+a {
+    color: skyblue;
+}
+
+.btn-save {
+    padding: 1px;
+}
+.panel {
+    background-color: rgba(240, 255, 255, 0.5)
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: teal;
+    font-weight: bold ;
+    background-color: cadetblue;
+}
+
+.nav > li > a:hover {
+    color: teal;
+    background-color: cadetblue;
+}
